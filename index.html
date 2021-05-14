@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <section class = "main-body">
+      <h1>ROCK, PAPER, SCISSORS</h1>
+      <section class="scores">
+        <span id="player-score">Your Score: <span id="player-number">0</span></span>
+        <span id="opp-score">Opponents Score: <span id="opponent-number">0</span></span>
+      </section>
+      <section class="buttons">
+        <button class="player-btn" id="rock" value = "rock">rock</button>
+        <button class="player-btn" id="paper" value = "paper">paper</button>
+        <button class="player-btn" id="scissors" value = "scissors">scissors</button>
+      </section>
+      <section class="bottom-section">
+        <ul>
+          <li><span class="opponent-choice">The opponents chose:</span></li>
+          <li><span class="opponent-result">PAPER</span></li>
+          <li><span class="choice-result">Rock beats Scissors</span></li>
+          <li><span class = "result">YOU LOST</span></li>
+          <script src="script.js"></script>
+        </ul>
+      </section>
+    </section>
+    <section class = "reset hidden">
+        <h1 class = "winner-loser">YOU WON</h1>
+        <button type = "button" class = "reset-btn">Try Again</button>
+    </section>
+  </body>
+</html>
